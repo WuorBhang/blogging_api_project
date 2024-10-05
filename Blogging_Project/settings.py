@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from datetime import timedelta
 from pathlib import Path
 import os
+from decouple import config
 import django_heroku
 import dj_database_url
 
@@ -30,7 +31,11 @@ SECRET_KEY = 'django-insecure-a27yjak@$p8ury&urn7zf_!7y0(ia^sgrje7s8$#33rbrv^$%d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+
+
+ALLOWED_HOSTS = ['*']
+
+
 
 
 # Application definition
