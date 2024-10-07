@@ -18,7 +18,7 @@ This API serves as the backend for a blogging platform, where developers can int
 - Search and filter functionality for posts.
 
 ## API Endpoints
-
+use this link: https://bloggingapiproject-d07dd804e7c6.herokuapp.com/swagger/
 ### Posts
 - `GET /api/posts/` - List all blog posts.
 - `GET /api/posts/<id>/` - Retrieve a specific blog post by ID.
@@ -46,7 +46,10 @@ This API serves as the backend for a blogging platform, where developers can int
 - `POST /api/register/` - Register a new user.
 - `POST /api/login/` - Obtain JWT tokens (login).
 
+## API Endpoints when using postman
+use this link to see how to applied them on postman
 
+https://bloggingapiproject-d07dd804e7c6.herokuapp.com/redoc/#tag/api/operation/api_categories_list
 
 ## Installation Prerequisites
 - Python 3.8+
